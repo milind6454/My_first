@@ -34,10 +34,7 @@ app.get('/product', (request, response) => {
         response.send(products)
     })
 })
-//milind sonawane
-//milind sonawane
 
-//mayur bapu sonawane
 app.listen(4000, () => {
     console.log(`Server started on port 4000`);
 });
